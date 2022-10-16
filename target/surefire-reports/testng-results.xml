@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-02T23:50:42 CEST" name="Error Validation" finished-at="2022-10-02T23:50:54 CEST" duration-ms="12222">
+    <groups>
+    </groups>
+    <test started-at="2022-10-02T23:50:42 CEST" name="D:/Work/SeleniumFrameworkDesign" finished-at="2022-10-02T23:50:54 CEST" duration-ms="12222">
+      <class name="org.ilonarumak.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.ilonarumak.tests.ErrorValidationsTest@4f3bbf68]" started-at="2022-10-02T23:50:42 CEST" name="launchApplication" finished-at="2022-10-02T23:50:53 CEST" duration-ms="10957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateLoginError()[pri:0, instance:org.ilonarumak.tests.ErrorValidationsTest@4f3bbf68]" started-at="2022-10-02T23:50:53 CEST" name="validateLoginError" finished-at="2022-10-02T23:50:54 CEST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginError -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:org.ilonarumak.tests.ErrorValidationsTest@4f3bbf68]" started-at="2022-10-02T23:50:54 CEST" name="shutDown" finished-at="2022-10-02T23:50:54 CEST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- org.ilonarumak.tests.ErrorValidationsTest -->
+    </test> <!-- D:/Work/SeleniumFrameworkDesign -->
+  </suite> <!-- Error Validation -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Error Validation">
+    <listeners>
+        <listener class-name="org.ilonarumak.tests.testComponents.ListenerTest"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="D:/Work/SeleniumFrameworkDesign">
+        <classes>
+            <class name="org.ilonarumak.tests.ErrorValidationsTest">
+                <methods>
+                    <include name="validateLoginError"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

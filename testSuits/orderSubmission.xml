@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Order Submission">
+    <listeners>
+        <listener class-name="org.ilonarumak.tests.testComponents.ListenerTest"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="D:/Work/SeleniumFrameworkDesign" parallel="methods" thread-count="2">
+        <classes>
+            <class name="org.ilonarumak.tests.OrderSubmissionTest">
+                <methods>
+                    <include name="loginSuccessfully"/>
+                    <include name="addItemToCart"/>
+                    <include name="submitOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
